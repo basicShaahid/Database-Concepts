@@ -1,0 +1,41 @@
+30/07/2024
+
+Lectorial 2 : Relational Database Model (Emily Zhou)
+
+1. relational model represents the database as a collection of relations.
+2. term "table" > loosely when data are structured into rows and columns.
+3. Inegrity Constraints - Key Constraint, Entity Intergrity Constraint, Domain Constraints
+
+The relational model
+1. the model is based on a single structure to represent data.
+2. each colum is an attribute of the table
+3. each row is a record
+4. relation model is based on a single relation model
+5. each relation should have a primary key - this key can be 1 or multiple attributes
+
+used Movie.db as an example to explain about primary keys
+
+![alt text](image.png)
+
+-primary key are unique identifiers for a record,ex: studentiD, email and phone number
+-any database will carry out a unique identity.
+-some unique entitys can carry two entitys,ex: customer name + email address
+
+from the movie.db
+
+Query
+
+* Select all from movie "Select * FROM MOVIE"
+- we can query whatever information we are looking for
+
+6. Tuples are the rows of data in a relation comprising components tha are atomic
+
+Query
+*Select * from MEMBER
+- the data in date is one value, u cannot split it into multiple components
+
+7. Schema of a relation is a set of relational tables and associated items that are related to one another.
+
+- the schema only includes the attribute names and table name
+
+nice
